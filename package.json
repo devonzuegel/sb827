@@ -10,6 +10,7 @@
     "@types/react-helmet": "^5.0.5",
     "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
+    "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typescript": "^1.4.10",
     "react-helmet": "^5.2.0"
