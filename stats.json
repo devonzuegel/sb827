@@ -13,9 +13,9 @@
       "path---index-f10bd912b3a044b2710c.js.map"
     ],
     "commons": [
-      "commons-5095f5ce61f158499d63.js",
+      "commons-00b4bf6e8c6390b23aa9.js",
       "build-js-styles.css",
-      "commons-5095f5ce61f158499d63.js.map",
+      "commons-00b4bf6e8c6390b23aa9.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-404-tsx": [
@@ -27,8 +27,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-tsx": [
-      "component---src-pages-index-tsx-477832ed6ea1fb569d4f.js",
-      "component---src-pages-index-tsx-477832ed6ea1fb569d4f.js.map"
+      "component---src-pages-index-tsx-f32d77da36cc50b0ef86.js",
+      "component---src-pages-index-tsx-f32d77da36cc50b0ef86.js.map"
     ],
     "app": [
       "app-24cc4a21a76a7eac83bf.js",
