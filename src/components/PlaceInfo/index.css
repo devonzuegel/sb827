@@ -1,0 +1,22 @@
+.place-info {
+  padding: 24px;
+  max-width: 1000px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 36px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.place-info--map {
+  border: 1px solid #e3e3e3;
+  height: 50%;
+  width: 40%;
+  margin-top: 1.25em;
+}
+
+.place-info--description {
+  width: 55%;
+}

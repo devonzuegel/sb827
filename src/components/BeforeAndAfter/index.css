@@ -1,10 +1,10 @@
-div#comparison {
+div#before-and-after {
   height: 50vh;
   overflow: hidden;
   width: 100%;
 }
 
-div#comparison figure {
+div#before-and-after figure {
   background-size: auto 100vh;
   background-position: left;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ div#comparison figure {
 
 /* Smaller screen */
 @media (max-width: 900px) {
-  div#comparison figure {
+  div#before-and-after figure {
     background-position: -40vw;
     background-size: auto 100vw;
     height: 100vw;
@@ -35,6 +35,26 @@ div#comparison figure {
     background-position: -40vw;
     background-size: auto 100vw;
     height: 100vw;
+  }
+}
+
+/* Smaller height */
+@media (max-height: 1100px) {
+  div#before-and-after figure {
+    background-size: auto 150vh;
+  }
+  #after {
+    background-size: auto 150vh;
+  }
+}
+
+/* Tiny height */
+@media (max-height: 600px) {
+  div#before-and-after figure {
+    background-size: auto 200vh;
+  }
+  #after {
+    background-size: auto 200vh;
   }
 }
 

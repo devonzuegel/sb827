@@ -8,12 +8,12 @@ interface IProps {
   percent?: number
 }
 
-class BeforeAndAfter extends React.Component<IProps, {after: number}> {
+export class BeforeAndAfter extends React.Component<IProps, {after: number}> {
   state = {after: this.props.percent || 50}
 
   public render() {
     return (
-      <div id="comparison">
+      <div id="before-and-after">
         <figure style={{backgroundImage: `url(${this.props.before})`}}>
           <div
             id="after"
@@ -37,5 +37,3 @@ class BeforeAndAfter extends React.Component<IProps, {after: number}> {
     )
   }
 }
-
-export default BeforeAndAfter
