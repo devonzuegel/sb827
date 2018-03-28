@@ -28,12 +28,12 @@ interface IndexPageProps {
   }
 }
 
-const CreditLink = (props: {name: string; handle: string}) => (
-  <a target="_blank" href={`http://twitter.com/${props.handle}`}>
+const CreditLink = (props: {name: string; link: string}) => (
+  <a target="_blank" href={`http://${props.link}`}>
     {props.name}
   </a>
 )
-const Credit = (props: {phrase: string; name: string; handle: string}) => (
+const Credit = (props: {phrase: string; name: string; link: string}) => (
   <span>
     {props.phrase} <CreditLink {...props} />
   </span>
@@ -81,13 +81,23 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           address={['310 Wilson St', 'Petaluma, CA 94952']}
         />
         <div className="footer">
-          <Credit phrase="Made by" name="Devon Zuegel" handle="devonzuegel" />
+          <Credit
+            phrase="Made by"
+            name="Devon Zuegel"
+            link="twitter.com/devonzuegel"
+          />
           <span className="separator">•</span>
-          <Credit phrase="Renderings by" name="Flora Bao" handle="baoflora" />
+          <Credit
+            phrase="Renderings by"
+            name="Flora Bao"
+            link="twitter.com/baoflora"
+          />
           <span className="separator">•</span>
-          Thanks to <CreditLink name="Nat Friedman" handle="natfriedman" />,{' '}
-          <CreditLink name="Louis Mirante" handle="louismirante" />, &amp;{' '}
-          <CreditLink name="Hunter Owens" handle="hunter_owens" />
+          Thanks to <CreditLink
+            name="Nat Friedman"
+            link="twitter.com/natfriedman"
+          />, <CreditLink name="Louis Mirante" link="twitter.com/louismirante" />,
+          &amp; <CreditLink name="Hunter Owens" link="twitter.com/hunter_owens" />
         </div>
       </div>
     )
