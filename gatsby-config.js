@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `https://devonzuegel.github.io/sb827`,
+  pathPrefix: `/sb827`,
   siteMetadata: {title: `SB 827`},
   plugins: [
     `gatsby-plugin-react-helmet`,
