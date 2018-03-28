@@ -10,11 +10,15 @@
   align-items: stretch;
 }
 
+.place-info--left {
+  width: 40%;
+}
+
 .place-info--map {
+  margin: 1.25em 0;
   border: 1px solid #e3e3e3;
   height: 50%;
-  width: 40%;
-  margin-top: 1.25em;
+  width: 100%;
 }
 
 .place-info--description {

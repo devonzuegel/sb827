@@ -13,3 +13,20 @@ body {
   max-width: 1000px;
   margin: auto;
 }
+
+a {
+  color: #367da2 !important;
+  padding-bottom: 0;
+  margin-bottom: -0;
+  border-bottom: 3px solid rgba(54, 125, 162, 0.1) !important;
+  transition: border 0.03s ease-in;
+  text-decoration: none !important;
+}
+
+a:hover,
+a:active {
+  color: #295f7c !important;
+  border-bottom: 3px solid rgba(54, 125, 162, 0.3) !important;
+  transition: border 0.03s ease-in;
+  text-decoration: none !important;
+}
