@@ -34,10 +34,9 @@ a:active {
 
 .footer {
   text-align: center;
-  width: 100%;
-  margin-top: 2em;
+  width: 90%;
   color: #aaa;
-  margin-bottom: 1.5em;
+  margin: 1.5em;
   font-size: 0.9em;
 }
 
