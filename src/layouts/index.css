@@ -8,10 +8,10 @@ body {
     Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
 }
 
-.content {
-  padding: 24px;
+.section {
   max-width: 1000px;
   margin: auto;
+  padding: 0 24px;
 }
 
 a {

@@ -3,15 +3,10 @@
   max-width: 1000px;
   margin: auto;
 
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 36px;
-  justify-content: space-between;
-  align-items: stretch;
-}
-
-.place-info--left {
-  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 2em;
+  grid-row-gap: 1em;
 }
 
 .place-info--map {
@@ -19,8 +14,4 @@
   border: 1px solid #e3e3e3;
   height: 50%;
   width: 100%;
-}
-
-.place-info--description {
-  width: 55%;
 }

@@ -30,7 +30,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
   public render() {
     return (
       <div>
-        <div className="content">
+        <div className="section">
           <h2>SB827 means an affordable place to live could exist on every block</h2>
         </div>
 
