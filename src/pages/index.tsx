@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
+const Render05A = require('../images/v05-1_L.jpg')
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -21,11 +22,10 @@ export default class extends React.Component<IndexPageProps, {}> {
   public render() {
     return (
       <div>
-        <h1>What's possible with SB 827?</h1>
-        <p>
-          Welcome to your new{' '}
-          <strong>{this.props.data.site.siteMetadata.title}</strong> site.
-        </p>
+        <div className="content">
+          <h1>What's possible with SB 827?</h1>
+        </div>
+        <img style={{width: '100%'}} src={Render05A} alt="Logo" />
       </div>
     )
   }
