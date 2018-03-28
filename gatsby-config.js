@@ -1,8 +1,6 @@
 module.exports = {
-  pathPrefix: `/sb827`,
-  siteMetadata: {
-    title: `SB 827`,
-  },
+  pathPrefix: `https://devonzuegel.github.io/sb827`,
+  siteMetadata: {title: `SB 827`},
   plugins: [
     `gatsby-plugin-react-helmet`,
     // Add typescript stack into webpack
