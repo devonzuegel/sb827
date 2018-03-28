@@ -1,11 +1,12 @@
 body {
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   color: #424241;
   fill: currentcolor;
   padding-top: 2vh;
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .section {
@@ -15,18 +16,49 @@ body {
 }
 
 a {
-  color: #367da2 !important;
+  color: #367da2;
   padding-bottom: 0;
   margin-bottom: -0;
-  border-bottom: 3px solid rgba(54, 125, 162, 0.1) !important;
+  border-bottom: 3px solid rgba(54, 125, 162, 0.1);
   transition: border 0.03s ease-in;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 a:hover,
 a:active {
-  color: #295f7c !important;
-  border-bottom: 3px solid rgba(54, 125, 162, 0.3) !important;
+  color: #295f7c;
+  border-bottom: 3px solid rgba(54, 125, 162, 0.3);
   transition: border 0.03s ease-in;
-  text-decoration: none !important;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  margin-top: 2em;
+  color: #aaa;
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+.footer .separator {
+  margin: 0 1em;
+}
+
+.footer a {
+  color: #aaa;
+  border-bottom: 2px solid #eee;
+  transition: border 0.1s ease-in;
+}
+
+.footer a:hover {
+  border-bottom: 2px solid #ddd;
+  transition: border 0.1s ease-in;
+}
+
+h1 {
+  font-weight: 500;
+  color: black;
+  font-size: 3.5em;
+  line-height: 1.1em;
 }

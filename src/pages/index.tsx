@@ -31,7 +31,9 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
     return (
       <div>
         <div className="section">
-          <h2>SB827 means an affordable place to live could exist on every block</h2>
+          <h1>
+            SB 827 means an affordable place to live could exist on every block
+          </h1>
         </div>
 
         <BeforeAndAfter before={Render08Before} after={Render08After} percent={65} />
@@ -60,6 +62,17 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
           address={['310 Wilson St', 'Petaluma, CA 94952']}
         />
+        <div className="footer">
+          Made by{' '}
+          <a target="_blank" href="http://twitter.com/devonzuegel">
+            Devon Zuegel
+          </a>
+          <span className="separator">•</span>
+          Renderings by{' '}
+          <a target="_blank" href="http://twitter.com/devonzuegel">
+            Flora Bao
+          </a>
+        </div>
       </div>
     )
   }
