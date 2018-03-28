@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-typescript",
-  "description": "Gatsby TypeScript starter",
+  "name": "sb827",
+  "description": "SB 827",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Devon Zuegel <devonzuegel@gmail.com>",
   "dependencies": {
     "@types/node": "^8.0.7",
     "@types/react": "15.0.21",
@@ -22,8 +22,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format":
-      "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\""
   },
   "devDependencies": {
     "prettier": "^1.8.2"
