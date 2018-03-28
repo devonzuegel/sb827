@@ -14,12 +14,12 @@ export const PlaceInfo = (props: IProps) => (
   <div className="place-info">
     <div className="place-info--left">
       <iframe className="place-info--map" src={props.src} allowFullScreen />
-      <div>
-        <span style={{paddingRight: '6px'}}>Image downloads:</span>
+      <div className="place-info--downloads">
+        <span className="place-info--label">Full-size downloads:</span>
         <a href={props.before} download>
           before
         </a>
-        <span> • </span>
+        <span className="place-info--separator">•</span>
         <a href={props.after} download>
           after
         </a>
