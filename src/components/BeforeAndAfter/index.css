@@ -1,0 +1,90 @@
+div#comparison {
+  height: 50vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+div#comparison figure {
+  background-size: auto 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  position: relative;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#after {
+  background-size: auto 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+}
+
+/* Smaller screen */
+@media (max-width: 900px) {
+  div#comparison figure {
+    background-position: -40vw;
+    background-size: auto 100vw;
+    height: 100vw;
+  }
+  #after {
+    background-position: -40vw;
+    background-size: auto 100vw;
+    height: 100vw;
+  }
+}
+
+/**
+ * Range
+ **/
+
+input[type='range'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  cursor: ew-resize;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 46vh;
+  top: -46vh;
+  margin: 0;
+}
+input[type='range']::-moz-range-track {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 46vh;
+  top: -46vh;
+  margin: 0;
+}
+input[type='range']:focus {
+  outline: none;
+}
+input[type='range']:active {
+  outline: none;
+}
+
+input[type='range']:active {
+  border: none;
+  outline: none;
+}
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 2px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+input[type='range']::-moz-range-thumb {
+  -webkit-appearance: none;
+  width: 2px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
