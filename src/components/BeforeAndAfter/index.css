@@ -1,5 +1,5 @@
 div#before-and-after {
-  height: 50vh;
+  height: 70vh;
   overflow: hidden;
   width: 100%;
 }
@@ -28,28 +28,28 @@ div#before-and-after figure {
 @media (max-width: 900px) {
   div#before-and-after figure {
     background-position: -40vw;
-    background-size: auto 100vw;
+    background-size: auto 80vw;
     height: 100vw;
   }
   #after {
     background-position: -40vw;
-    background-size: auto 100vw;
+    background-size: auto 80vw;
     height: 100vw;
   }
 }
 
 /* Smaller height */
-@media (max-height: 1100px) {
+@media (max-height: 1000px) and (min-width: 725px) {
   div#before-and-after figure {
-    background-size: auto 150vh;
+    background-size: auto 160vh;
   }
   #after {
-    background-size: auto 150vh;
+    background-size: auto 160vh;
   }
 }
 
 /* Tiny height */
-@media (max-height: 600px) {
+@media (max-height: 600px) and (min-width: 725px) {
   div#before-and-after figure {
     background-size: auto 200vh;
   }
