@@ -75,7 +75,7 @@ export const Introduction = () => (
       change.
     </p>
     <p>
-      However, when I dug into the numbers, not only were my fears alleviated, but I
+      However, when I dug into the numbers, not only were my fears alleviated but I
       actually got really excited. Rather than the community-destroying godzilla it's
       been made out to be, SB 827 will make neighborhoods far more vibrant,
       eco-friendly, and equitable.
