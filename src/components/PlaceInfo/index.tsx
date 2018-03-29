@@ -3,7 +3,7 @@ import * as React from 'react'
 import './index.css'
 
 interface IProps {
-  description: string
+  description: string[]
   src: string
   address: string[]
   before: string
@@ -28,8 +28,7 @@ export const PlaceInfo = (props: IProps) => (
     </div>
     <div className="place-info--description">
       <h2>{props.emphasis}</h2>
-      <p>{props.description}</p>
-      <p>{props.description}</p>
+      {props.description.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
     </div>
   </div>
 )

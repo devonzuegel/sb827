@@ -1,10 +1,10 @@
 .place-info {
   padding: 1em;
-  max-width: 1000px;
+  max-width: 1150px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-column-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-column-gap: 4em; // A bit bigger than Introduction columns because they are not justified
   grid-row-gap: 1em;
 }
 
