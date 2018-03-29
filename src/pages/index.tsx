@@ -5,6 +5,7 @@ import {BeforeAndAfter} from '../components/BeforeAndAfter'
 import {PlaceInfo} from '../components/PlaceInfo'
 import {Credit, ExternalLink} from '../components/Links'
 import {Introduction} from '../components/Introduction'
+import {ThankYou, AboutProject} from '../components/Footer'
 
 // Downloads
 import * as Render05Before_FullSize from '../images/full-size/v05-photo_L.jpg'
@@ -88,28 +89,8 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
             Paris, etc
           </b>
         </div>
-        <div className="footer">
-          <Credit
-            phrase="Made by"
-            children="Devon Zuegel"
-            link="twitter.com/devonzuegel"
-          />
-          <span className="separator">•</span>
-          <Credit
-            phrase="Renderings by"
-            children="Flora Bao"
-            link="twitter.com/baoflora"
-          />
-          <span className="separator">•</span>
-          Thanks to{' '}
-          <ExternalLink
-            children="Nat Friedman"
-            link="twitter.com/natfriedman"
-          />,{' '}
-          <ExternalLink children="Louis Mirante" link="twitter.com/louismirante" />,
-          &amp;{' '}
-          <ExternalLink children="Hunter Owens" link="twitter.com/hunter_owens" />
-        </div>
+        <AboutProject />
+        <ThankYou />
       </div>
     )
   }
