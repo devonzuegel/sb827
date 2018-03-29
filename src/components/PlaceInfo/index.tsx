@@ -8,6 +8,7 @@ interface IProps {
   address: string[]
   before: string
   after: string
+  emphasis: string
 }
 
 export const PlaceInfo = (props: IProps) => (
@@ -26,6 +27,7 @@ export const PlaceInfo = (props: IProps) => (
       </div>
     </div>
     <div className="place-info--description">
+      <h2>{props.emphasis}</h2>
       <p>{props.description}</p>
       <p>{props.description}</p>
     </div>

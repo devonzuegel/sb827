@@ -1,5 +1,5 @@
 .place-info {
-  padding: 24px;
+  padding: 1em;
   max-width: 1000px;
   margin: auto;
   display: grid;
@@ -16,7 +16,7 @@
 }
 
 .place-info--map {
-  margin: 1.25em 0;
+  margin: 1.75em 0 1.25em;
   border: 1px solid #e3e3e3;
   height: 49%;
   width: 99%;
