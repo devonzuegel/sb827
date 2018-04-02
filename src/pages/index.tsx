@@ -7,21 +7,21 @@ import {Credit, ExternalLink} from '../components/Links'
 import {Introduction} from '../components/Introduction'
 import {ThankYou, AboutProject} from '../components/Footer'
 
-// Downloads
-import * as Render05Before_FullSize from '../images/full-size/v05-photo.jpg'
-import * as Render05After_FullSize from '../images/full-size/v05-2.jpg'
-import * as Render06Before_FullSize from '../images/full-size/v06_photo.jpg'
-import * as Render06After_FullSize from '../images/full-size/v06.jpg'
-import * as Render08Before_FullSize from '../images/full-size/v08-photo.jpg'
-import * as Render08After_FullSize from '../images/full-size/v08.jpg'
-
 // Renders
-import * as Render05Before from '../images/v05-photo.jpg'
-import * as Render05After from '../images/v05-2.jpg'
-import * as Render06Before from '../images/v06_photo.jpg'
-import * as Render06After from '../images/v06.jpg'
-import * as Render08Before from '../images/v08-photo.jpg'
-import * as Render08After from '../images/v08.jpg'
+import * as Render05Before from '../images/5-photo.jpg'
+import * as Render05After from '../images/5B.jpg'
+import * as Render06Before from '../images/6-photo.jpg'
+import * as Render06After from '../images/6.jpg'
+import * as Render08Before from '../images/8-photo.jpg'
+import * as Render08After from '../images/8.jpg'
+
+// Downloads
+import * as Render05Before_FullSize from '../images/full-size/5-photo.jpg'
+import * as Render05After_FullSize from '../images/full-size/5B.jpg'
+import * as Render06Before_FullSize from '../images/full-size/6-photo.jpg'
+import * as Render06After_FullSize from '../images/full-size/6.jpg'
+import * as Render08Before_FullSize from '../images/full-size/8-photo.jpg'
+import * as Render08After_FullSize from '../images/full-size/8.jpg'
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
