@@ -45,10 +45,10 @@
 /* Smaller height */
 @media (max-height: 1000px) and (min-width: 725px) {
   #before-and-after figure {
-    background-size: auto 115vh;
+    background-size: auto 55vw;
   }
   #after {
-    background-size: auto 115vh;
+    background-size: auto 55vw;
   }
 }
 
