@@ -30,7 +30,7 @@ export const AboutProject = () => (
   <div className="section">
     <h2>About this project</h2>
     <p>
-      This site was originally published on March 31, 2018. You can find the source
+      This site was originally published on April 2, 2018. You can find the source
       and revision history{' '}
       <ExternalLink link="github.com/devonzuegel/sb827">here</ExternalLink>.
     </p>
