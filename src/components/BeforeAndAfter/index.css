@@ -27,18 +27,18 @@
 /* Smaller screen */
 @media (max-width: 900px) {
   #before-and-after {
-    height: 50vh;
+    height: 70vw;
   }
 
   #before-and-after figure {
     background-position: -40vw;
     background-size: auto 80vw;
-    height: 100vw;
+    height: 70vw;
   }
   #after {
     background-position: -40vw;
     background-size: auto 80vw;
-    height: 100vw;
+    height: 70vw;
   }
 }
 
@@ -100,14 +100,14 @@ input[type='range']:active {
 }
 input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 4px;
+  width: 8px;
   height: 100vh;
   background: rgba(255, 255, 255, 0.7);
   border: none;
 }
 input[type='range']::-moz-range-thumb {
   -webkit-appearance: none;
-  width: 4px;
+  width: 8px;
   height: 100vh;
   background: rgba(255, 255, 255, 0.7);
   border: none;
@@ -117,11 +117,11 @@ input[type='range']::-moz-range-thumb {
 @media (max-width: 900px) {
   input[type='range'] {
     height: 80vw;
-    top: -90vw;
+    top: -70vw;
   }
   input[type='range']::-moz-range-track {
     height: 80vw;
-    top: -90vw;
+    top: -70vw;
   }
   input[type='range']::-webkit-slider-thumb {
     height: 80vw;
@@ -130,5 +130,11 @@ input[type='range']::-moz-range-thumb {
   input[type='range']::-moz-range-thumb {
     height: 80vw;
     width: 12px;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    width: 8px;
+  }
+  input[type='range']::-moz-range-thumb {
+    width: 8px;
   }
 }

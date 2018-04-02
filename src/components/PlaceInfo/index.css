@@ -3,7 +3,7 @@
   max-width: 1150px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-column-gap: 4em; // A bit bigger than Introduction columns because they are not justified
   grid-row-gap: 1em;
 }
