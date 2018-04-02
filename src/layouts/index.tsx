@@ -19,8 +19,8 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
         <Helmet
           title="SB 827"
           meta={[
-            {name: 'description', content: 'Sample'},
-            {name: 'keywords', content: 'sample, something'},
+            {name: 'description', content: ''},
+            {name: 'keywords', content: ''},
           ]}
         />
         {this.props.children()}
