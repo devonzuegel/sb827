@@ -11,10 +11,12 @@ export const ThankYou = () => (
     />
     <span className="separator">•</span>
     <Credit
-      phrase="Renderings by"
+      phrase="Consultation by"
       children="Flora Bao"
-      link="twitter.com/baoflora"
+      link="www.aiasf.org/members/?id=39131857"
     />
+    <span className="separator">•</span>
+    <Credit phrase="Renderings by" children="UVIZ" link="www.uvizstudio.com" />
     <span className="separator">•</span>
     Thanks to <ExternalLink
       children="Nat Friedman"

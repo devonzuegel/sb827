@@ -5,6 +5,7 @@ export const ExternalLink = (props: {children: string; link: string}) => (
     {props.children}
   </a>
 )
+
 export const Credit = (props: {phrase: string; children: string; link: string}) => (
   <span>
     {props.phrase} <ExternalLink {...props} />
