@@ -131,10 +131,4 @@ input[type='range']::-moz-range-thumb {
     height: 80vw;
     width: 12px;
   }
-  input[type='range']::-webkit-slider-thumb {
-    width: 8px;
-  }
-  input[type='range']::-moz-range-thumb {
-    width: 8px;
-  }
 }
