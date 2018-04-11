@@ -180,8 +180,8 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
         <PlaceInfo
           before={Render04Before_FullSize}
           after={Render04After_FullSize}
-          emphasis=""
-          description={[]}
+          emphasis="Where do we go from here?"
+          description={[`We're at an exciting inflection point—`]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
           address={
             ['Diamond and Mission', 'South Pasadena'] // TODO: update src
