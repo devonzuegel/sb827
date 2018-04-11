@@ -66,7 +66,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           emphasis="SB 827 means an affordable place to live could exist on every block"
           description={[
             'Most places in California have effectively legislated that the housing supply remain fixed as demand skyrockets. It is rarely explicit; rather it takes the form of low-density zoning, which puts a tiny cap on the number of people who can participate in the community. People are then forced to compete for what limited housing is available, which pushes prices up.',
-            'TODO [Add more about how SB 827 would fix this problem]',
+            `SB 827 would do away with a lot of these arbitrary regulations that restrict where people can be.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d840.1963474816608!2d-117.084435970752!3d32.61190229881392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94dd41d76dcf9%3A0xf2c2045a19309578!2s1041+Jefferson+Ave%2C+Chula+Vista%2C+CA+91911!5e0!3m2!1sen!2sus!4v1522210849364"
           address={['1039 Jefferson Ave', 'Chula Vista, CA 91911']}
@@ -101,11 +101,16 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
         <PlaceInfo
           before={Render01Before_FullSize}
           after={Render01After_FullSize}
-          emphasis="TODO"
-          description={['TODO']}
-          // TODO: update src
+          emphasis="SB 827 means we can make full use of our infrastructure investments"
+          description={[
+            `We make massive investments in California's transit infrastructure, but they go underutilized. The core of the problem is that local zoning rules restrict the number of people this infrastructure can serve.`,
+            `When a neighborhood reaps the benefits of regional and statewide projects, their development plans should reflect the resources that the broader community has funneled their way. I sympathize with the desire for local control, but it's not fair or efficient for a place to reap the benefits of investment by the broader California community if they don't respond in kind by welcoming neighbors that infrastructure was intended to serve. It just doesn't make sense to spend millions of dollars on a new transit hub surrounded by low-density sprawl.`,
+            `SB 827 would go far to righting this imbalance. The bill would cut some of the red tape around building around transit, enabling us to make the most of our transit investments.`,
+          ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
-          address={['North Berkeley BART Station', 'Berkeley, CA']}
+          address={
+            ['North Berkeley BART Station', 'Berkeley, CA'] // TODO: update src
+          }
           impacts={[]}
         />
         <br />
@@ -113,11 +118,12 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
         <PlaceInfo
           before={Render02Before_FullSize}
           after={Render02After_FullSize}
-          emphasis="TODO"
+          emphasis="SB 827 means vibrant, beautiful neighborhoods"
           description={['TODO']}
-          // TODO: update src
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
-          address={['4th and Colorado', 'Palo Alto, CA']}
+          address={
+            ['4th and Colorado', 'Palo Alto, CA'] // TODO: update src
+          }
           impacts={[['Number of units', '69'], ['Occupancy', '106']]}
         />
         <br />
@@ -125,11 +131,12 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
         <PlaceInfo
           before={Render03Before_FullSize}
           after={Render03After_FullSize}
-          emphasis="TODO"
+          emphasis="Where can I learn more about SB 827?"
           description={['TODO']}
-          // TODO: update src
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
-          address={['Downtown Santa Monica']}
+          address={
+            ['Downtown Santa Monica'] // TODO: update src
+          }
           impacts={[['Number of units', '46-52'], ['Occupancy', '65-84']]}
         />
         <br />
@@ -137,16 +144,18 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
         <PlaceInfo
           before={Render04Before_FullSize}
           after={Render04After_FullSize}
-          emphasis="TODO"
-          description={['TODO']}
-          // TODO: update src
+          emphasis=""
+          description={[]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
-          address={['Diamond and Mission', 'South Pasadena']}
+          address={
+            ['Diamond and Mission', 'South Pasadena'] // TODO: update src
+          }
           impacts={[['Number of units', '46-52'], ['Occupancy', '65-84']]}
         />
         <br />
-        <hr />
-        <AboutProject />
+        <br />
+        <br />
+        {/* <AboutProject /> */}
         <ThankYou />
       </div>
     )
