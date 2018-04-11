@@ -67,8 +67,8 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           description={[
             'Most places in California have effectively legislated that the housing supply remain fixed. Meanwhile, demand skyrockets. It is rarely explicit; rather it takes the form of low-density zoning, which puts a tiny cap on the number of people who can participate in the community. People are then forced to compete for what limited housing is available, which pushes prices up.',
             <p>
-              This shortage doesn't only hurt the people who move here. It reduces
-              overall mobility, and it stagnates the economy for everyone.{' '}
+              This shortage doesn't only hurt the people who want to move here. It
+              reduces overall mobility, and it stagnates the economy for everyone.{' '}
               <ExternalLink link="faculty.chicagobooth.edu/chang-tai.hsieh/research/growth.pdf">
                 Economists estimate
               </ExternalLink>{' '}
