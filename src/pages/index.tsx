@@ -65,8 +65,19 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           after={Render08After_FullSize}
           emphasis="SB 827 means an affordable place to live could exist on every block"
           description={[
-            'Most places in California have effectively legislated that the housing supply remain fixed as demand skyrockets. It is rarely explicit; rather it takes the form of low-density zoning, which puts a tiny cap on the number of people who can participate in the community. People are then forced to compete for what limited housing is available, which pushes prices up.',
-            `SB 827 would do away with a lot of these arbitrary regulations that restrict where people can be.`,
+            'Most places in California have effectively legislated that the housing supply remain fixed. Meanwhile, demand skyrockets. It is rarely explicit; rather it takes the form of low-density zoning, which puts a tiny cap on the number of people who can participate in the community. People are then forced to compete for what limited housing is available, which pushes prices up.',
+            <p>
+              This shortage doesn't only hurt the people who move here. It reduces
+              overall mobility, and it stagnates the economy for everyone.{' '}
+              <ExternalLink link="faculty.chicagobooth.edu/chang-tai.hsieh/research/growth.pdf">
+                Economists estimate
+              </ExternalLink>{' '}
+              that land-use restrictions reduced U.S. GDP as a whole by roughly 9%
+              each year since the 1960s. (Even if we assume that's an order of
+              magnitude off, at 0.9% per year, that compounds to a doubling of the
+              economy that we missed out on!)
+            </p>,
+            `SB 827 would do away with a lot of these arbitrary regulations that restrict where people can live. It would allow supply to begin to respond to demand, bringing us an important step closer to reining in the absurd cost of living in California.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d840.1963474816608!2d-117.084435970752!3d32.61190229881392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94dd41d76dcf9%3A0xf2c2045a19309578!2s1041+Jefferson+Ave%2C+Chula+Vista%2C+CA+91911!5e0!3m2!1sen!2sus!4v1522210849364"
           address={['1039 Jefferson Ave', 'Chula Vista, CA 91911']}

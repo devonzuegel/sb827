@@ -25,37 +25,32 @@ export const Introduction = () => (
     </ul>
     <p>
       None of this will come as a surprise if you’ve spent any time in California, so
-      I won't belabor the point. If you do want to learn more,{' '}
+      I won't belabor the point. If you do want to learn more, you can find a great
+      primer on the subject{' '}
       <ExternalLink link="calbudgetcenter.org/resources/californians-parts-state-pay-can-afford-housing">
-        Californians: Here's why your housing costs are so high
-      </ExternalLink>{' '}
-      is a great primer.
+        here
+      </ExternalLink>.
     </p>
     <p>
-      We're lucky that people want to move here—California's economy is booming, and
-      some of the most beautiful places in the county are right in our backyard.
-      Newcomers want to participate in the opportunities available in our state, but
-      a shortage of places to live make it hard for them to make those contributions.
+      We're <i>lucky</i> that people want to move here. California's economy is
+      booming, and some of the most beautiful places in the county are right in our
+      backyard. Newcomers want to participate in the opportunities available in our
+      state, but a shortage of places to live make it hard for them to make those
+      contributions.
     </p>
     <p>
-      This shortage doesn't only hurt the people who move here. It reduces overall
-      mobility, and it stagnates the economy for everyone.{' '}
-      <ExternalLink link="faculty.chicagobooth.edu/chang-tai.hsieh/research/growth.pdf">
-        Economists estimate
-      </ExternalLink>{' '}
-      that land-use restrictions reduced U.S. GDP as a whole by roughly 9% each year
-      since the 1960s. (Even if we assume that's an order of magnitude off, at 0.9%
-      per year, that compounds to a doubling of the economy that we missed out on!)
-    </p>
-    <p>
-      This is not a new problem, but for the first time there's a proposal facing the
-      state legislature that could make a dent: Senate Bill 827, or{' '}
+      This is not a new problem, but{' '}
+      <b>
+        for the first time there's a proposal facing the state legislature that could
+        make a dent: Senate Bill 827
+      </b>, or{' '}
       <ExternalLink link="leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB827">
         SB 827
       </ExternalLink>{' '}
       for short. The bill would up-zone areas near transit to allow for mid-rise
-      housing. At a high level, the measure would:
+      housing.
     </p>
+    <p>At a high level, the measure would:</p>
     <ul>
       <li>
         Eliminate many restrictions on the number of houses allowed to be built near
@@ -81,11 +76,11 @@ export const Introduction = () => (
       eco-friendly, and equitable.
     </p>
     <p>
-      The bill is technical and long, so to get an intuitive sense of what SB 827
-      would make possible, some friends and I created renderings to illustrate its
-      potential. We picked some vacant but promising lots located near transit
-      throughout the state. In a few years they could be a new home for some friendly
-      new neighbors. Use the sliders below to see what they could become!
+      To get an intuitive sense of what SB 827 would make possible, some friends and
+      I created renderings to illustrate its potential. We picked some vacant but
+      promising lots located near transit throughout the state. In a few years they
+      could be a new home for some friendly new neighbors. Use the sliders below to
+      see what they could become!
     </p>
   </div>
 )

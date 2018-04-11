@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export const ExternalLink = (props: {children: string; link: string}) => (
+export const ExternalLink = (props: {children: React.ReactNode; link: string}) => (
   <a target="_blank" href={`http://${props.link}`}>
     {props.children}
   </a>

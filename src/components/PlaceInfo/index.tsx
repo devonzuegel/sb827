@@ -5,7 +5,7 @@ import './index.css'
 type TImpact = [string, string]
 
 interface IProps {
-  description: string[]
+  description: React.ReactNode[]
   src: string
   address: string[]
   before: string
