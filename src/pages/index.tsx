@@ -130,7 +130,32 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           before={Render02Before_FullSize}
           after={Render02After_FullSize}
           emphasis="SB 827 means vibrant, beautiful neighborhoods"
-          description={['TODO']}
+          description={[
+            <p>
+              A concern I hear a lot is that this bill could damage neighborhood
+              character due to overcrowding, ugly condos, and so on. Again, I
+              sympathize with this fear. As a Bay Area native, San Francisco's unique
+              charm holds a special place for me, and I don't want the Painted Ladies
+              to be replaced with a massive condo.
+            </p>,
+            <p>
+              Fortunately, housing people and building beautiful neighborhoods are
+              not mutually exclusive. In fact, they complement one another!
+            </p>,
+            <p>
+              Paris, perhaps the most beloved city in the world, is a good
+              illustration. It's gorgeous and does not feel overcrowded, so most
+              people are shocked to learn that Paris has higher population density
+              than New York City. A big part of what people love about the city is
+              just how accessible everything is, which is only possible when there's
+              a critical mass of people to support an abundance of shops, cafes, and
+              transit. They manage to do this even while working with a 6 story limit
+              throughout most of the city! Paris simultaneously supports a dense
+              population and is one of the most livable cities in the world. We can
+              do that in California, too, without sacrficing what we love about our
+              communities.
+            </p>,
+          ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
           address={
             ['4th and Colorado', 'Palo Alto, CA'] // TODO: update src
