@@ -88,3 +88,9 @@ h1 {
   font-size: 3.5em;
   line-height: 1.1em;
 }
+
+hr {
+  width: 30px;
+  border: dashed;
+  color: #ccc;
+}

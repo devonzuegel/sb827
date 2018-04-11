@@ -9,15 +9,40 @@
 }
 
 .place-info--left {
-  color: #999;
+  z-index: 4;
 }
+
+.place-info--details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.place-info--downloads {
+  margin-top: 1.25em;
+}
+
 .place-info--downloads * {
+  color: #999;
   margin-right: 0.6em;
 }
 
 .place-info--map {
-  margin: 1.75em 0 1.25em;
+  margin: -3.5em 0 1.25em;
   border: 1px solid #e3e3e3;
+  border: 2px solid white;
   height: 49%;
   width: 99%;
+}
+
+.details--left,
+.details--right {
+  width: 45%;
+  min-width: 150px;
+}
+
+.details--left {
+  padding-right: 2em;
 }
