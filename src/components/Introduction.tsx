@@ -7,7 +7,7 @@ export const Introduction = () => (
     <p>
       <i>
         To get an intuitive sense of what SB 827 would make possible, some friends
-        and I created renderings to illustrate its potential. We picked some vacant
+        and I created renderings to illustrate its potential. We picked a few vacant
         but promising lots located near transit throughout the state. In a few years
         they could be a new home for some friendly new neighbors. Use the sliders
         below to see what they could become!
