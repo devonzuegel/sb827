@@ -91,12 +91,35 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           emphasis="SB 827 means that parents can spend time with their kids rather than commuting in their cars"
           description={[
             <p>
-              Housing prices in cities have risen faster than wages, pushing people ever further from their jobs. The result is tedious commutes, <a href="https://www.sfgate.com/bayarea/article/These-have-been-judged-the-Bay-Area-s-10-worst-12207607.php">traffic congestion</a>, and lost productivity. About <a href="https://www.nytimes.com/2018/03/16/business/energy-environment/climate-density.html">1 in 20</a> Bay Area commuters spends more than 90 minutes traveling to work, and that number is rising. That time would be better spent doing literally anything else, but we've given these workers little choice. Workers are forced to make a tradeoff—spend all of their time commuting, or spend all of their savings on housing close to work. Many people are deciding to opt out all together, moving out to settle down in more affordable regions.
+              Housing prices in cities have risen faster than wages, pushing people
+              ever further from their jobs. The result is tedious commutes,{' '}
+              <a href="https://www.sfgate.com/bayarea/article/These-have-been-judged-the-Bay-Area-s-10-worst-12207607.php">
+                traffic congestion
+              </a>, and lost productivity. About{' '}
+              <a href="https://www.nytimes.com/2018/03/16/business/energy-environment/climate-density.html">
+                1 in 20
+              </a>{' '}
+              Bay Area commuters spends more than 90 minutes traveling to work, and
+              that number is rising. That time would be better spent doing literally
+              anything else, but we've given these workers little choice. Workers are
+              forced to make a tradeoff—spend all of their time commuting, or spend
+              all of their savings on housing close to work. Many people are deciding
+              to opt out all together, moving out to settle down in more affordable
+              regions.
             </p>,
             <p>
-              This is not the natural ebb and flow of supply and demand. We have imposed an artificial shortage on housing similar to <a href="https://courses.lumenlearning.com/boundless-economics/chapter/impacts-of-monopoly-on-efficiency/">monopoly pricing</a> that results in deadweight loss. Current rules allow people who already have access to all California has to offer to exclude others from those same opportunities. This massively disadvantages the large number of people who are excluded at only a slight short-term advantage to the people who are already here.
+              This is not the natural ebb and flow of supply and demand. We have
+              imposed an artificial shortage on housing similar to{' '}
+              <a href="https://courses.lumenlearning.com/boundless-economics/chapter/impacts-of-monopoly-on-efficiency/">
+                monopoly pricing
+              </a>{' '}
+              that results in deadweight loss. Current rules allow people who already
+              have access to all California has to offer to exclude others from those
+              same opportunities. This massively disadvantages the large number of
+              people who are excluded at only a slight short-term advantage to the
+              people who are already here.
             </p>,
-              `Californians pride themselves on welcoming outsiders, but this is a hollow ideal if we don't create a place for them to live. SB 827 would alleviate this artificial restriction, and its emphasis on transit hubs would minimize any additional strain on our infrastructure.  It would allow more people to participate in and contribute to California's thriving economy, which would ultimately benefit everyone.`,
+            `Californians pride themselves on welcoming outsiders, but this is a hollow ideal if we don't create a place for them to live. SB 827 would alleviate this artificial restriction, and its emphasis on transit hubs would minimize any additional strain on our infrastructure.  It would allow more people to participate in and contribute to California's thriving economy, which would ultimately benefit everyone.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d391.7260048928203!2d-122.6330726!3d38.2375615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085b6aa0d6a5c49%3A0x4477696a140294f4!2s310+Wilson+St%2C+Petaluma%2C+CA+94952!5e0!3m2!1sen!2sus!4v1522212099560"
           address={['310 Wilson St', 'Petaluma, CA 94952']}
@@ -110,12 +133,23 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           description={[
             `To achieve California's environmental goals, it is key that we revisit local zoning laws. These restrictions mandate low-density housing around transit, which limits the number of people who can use it, induces sprawl, and pushes people to drive more.`,
             <p>
-              Forty percent of California's carbon emissions are from transportation.
-              If more people can live near transit, they'll be able drive less and
-              make a big dent in reducing this number. "It'll give us a much better
-              chance of meeting our climate goals," <a href="https://www.curbed.com/2018/1/24/16928438/sb827-california-housing-crisis-senator-scott-wiener" >said</a> Senator Scott Weiner, who
-              proposed the bill. "We'll never meet them with our current land-use
-              patterns."
+              If people can live near transit, they'll be able drive less. This is a
+              big deal—40 percent of California's carbon emissions are from
+              transportation, so making a dent in this number is key to reducing our
+              overall environmental impact. A{' '}
+              <a href="https://uli.bookstore.ipgbook.com/growing-cooler-products-9780874201789.php">
+                study from the Urban Land Institute
+              </a>{' '}
+              found that policies to promote compact growth—like SB 827—could cut
+              vehicle travel by 40 percent.
+            </p>,
+            <p>
+              "It'll give us a much better chance of meeting our climate goals,"{' '}
+              <a href="https://www.curbed.com/2018/1/24/16928438/sb827-california-housing-crisis-senator-scott-wiener">
+                said
+              </a>{' '}
+              Senator Scott Weiner, who proposed the bill. "We'll never meet them
+              with our current land-use patterns."
             </p>,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
