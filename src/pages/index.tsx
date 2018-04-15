@@ -256,7 +256,10 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
                 Not everyone supports SB 827. Here is a Change.org petition begun by
                 some critics of the bill, which includes a good overview of the case
                 against SB 827:{' '}
-                <a href="https://www.change.org/p/california-state-legislature-no-to-sb-827-sb-828-stop-top-down-planning-unsustainable-high-density-housing-growth">
+                <a
+                  rel="nofollow"
+                  href="https://www.change.org/p/california-state-legislature-no-to-sb-827-sb-828-stop-top-down-planning-unsustainable-high-density-housing-growth"
+                >
                   NO to SB 827 &amp; SB 828! Stop Top-Down Planning &amp;
                   Unsustainable High-Density Housing Growth!
                 </a>{' '}
