@@ -4,7 +4,20 @@ import {ExternalLink} from '../components/Links'
 
 export const Introduction = () => (
   <div className="two-columns">
-    <p>California is in a housing crisis. For a sense of its scale:</p>
+    <p>
+      <i>
+        To get an intuitive sense of what SB 827 would make possible, some friends
+        and I created renderings to illustrate its potential. We picked some vacant
+        but promising lots located near transit throughout the state. In a few years
+        they could be a new home for some friendly new neighbors. Use the sliders
+        below to see what they could become!
+      </i>
+    </p>
+    <hr />
+    <p>
+      But first, some background: California is in a housing crisis. For a sense of
+      its scale:
+    </p>
     <ul>
       <li>
         California added 334 thousand residents in 2017, while only 88 thousand
@@ -73,14 +86,11 @@ export const Introduction = () => (
       However, when I dug into the numbers, not only were my fears alleviated but I
       actually got really excited. Rather than the community-destroying godzilla it's
       been made out to be, SB 827 will make neighborhoods far more vibrant,
-      eco-friendly, and equitable.
+      eco-friendly, and equitable.{' '}
     </p>
     <p>
-      To get an intuitive sense of what SB 827 would make possible, some friends and
-      I created renderings to illustrate its potential. We picked some vacant but
-      promising lots located near transit throughout the state. In a few years they
-      could be a new home for some friendly new neighbors. Use the sliders below to
-      see what they could become!
+      I hope the renderings and perspectives below give you inspiration of how
+      California could change for the better under this bill!
     </p>
   </div>
 )

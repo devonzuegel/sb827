@@ -90,7 +90,17 @@ h1 {
 }
 
 hr {
-  width: 30px;
-  border: dashed;
-  color: #ccc;
+  border: none;
+  text-align: center;
+}
+
+hr:before {
+  content: '~';
+  display: inline-block;
+  margin: auto;
+  color: #bbb;
+  position: relative;
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 0.6em;
 }
