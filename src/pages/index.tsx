@@ -66,9 +66,10 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           emphasis="SB 827 means an affordable place to live could exist on every block"
           description={[
             'Most places in California have effectively legislated that the housing supply remain fixed. Meanwhile, demand skyrockets. These restrictions it take the form of low-density zoning, which puts a tiny cap on the number of people who can participate in the community. People are then forced to compete for what limited housing is available, which pushes prices up.',
+            `The status quo disproportionately hurts the disadvantaged. Our current policy is making the state less diverse, displacing minorities and vibrant, edgy experimenters by pushing up rents to levels that only white collar professionals can afford to pay.`,
             <p>
-              This shortage doesn't only hurt the people who want to move here. It
-              reduces overall mobility, and it stagnates the economy for everyone.{' '}
+              This shortage doesn't only hurt the people who want to move here. In
+              reducing overall mobility, it stagnates the economy for everyone.{' '}
               <ExternalLink link="faculty.chicagobooth.edu/chang-tai.hsieh/research/growth.pdf">
                 Economists estimate
               </ExternalLink>{' '}
