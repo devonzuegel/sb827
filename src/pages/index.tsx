@@ -168,9 +168,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
             `SB 827 would go far in righting this imbalance. The bill would cut some of the red tape around building around transit, enabling us to make the most of our transit investments.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4015937269373!2d-122.28537068400891!3d37.874289979741434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857ebe90b946ef%3A0xfee56f2e56062794!2sNorth+Berkeley+BART+Station!5e0!3m2!1sen!2sus!4v1523441743704"
-          address={
-            ['North Berkeley BART Station', 'Berkeley, CA 94702'] // TODO: update src
-          }
+          address={['North Berkeley BART Station', 'Berkeley, CA 94702']}
           impacts={[]}
         />
         <br />
@@ -206,9 +204,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
             </p>,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1583.822307709984!2d-122.16515714167554!3d37.44549939495518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb376fa3b65d%3A0x88ae6a53d8c99c7!2sLytton+Ave+%26+Emerson+St%2C+Palo+Alto%2C+CA+94301%2C+USA!5e0!3m2!1sen!2snl!4v1523830882066"
-          address={
-            ['Downtown Palo Alto'] // TODO: update src
-          }
+          address={['Downtown Palo Alto']}
           impacts={[['Number of units', '69'], ['Occupancy', '106']]}
         />
         <br />
@@ -275,9 +271,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
             </p>,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.1722373935318!2d-118.49340641711257!3d34.01378959309922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4d2297fd73f%3A0xc3a966dc543f315c!2s4th+St+%26+Colorado+Ave%2C+Santa+Monica%2C+CA+90401%2C+USA!5e0!3m2!1sen!2snl!4v1523830606354"
-          address={
-            ['Downtown Santa Monica'] // TODO: update src
-          }
+          address={['Downtown Santa Monica']}
           impacts={[['Number of units', '46-52'], ['Occupancy', '65-84']]}
         />
         <br />
