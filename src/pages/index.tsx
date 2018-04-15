@@ -205,9 +205,9 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               our communities.
             </p>,
           ]}
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1583.822307709984!2d-122.16515714167554!3d37.44549939495518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb376fa3b65d%3A0x88ae6a53d8c99c7!2sLytton+Ave+%26+Emerson+St%2C+Palo+Alto%2C+CA+94301%2C+USA!5e0!3m2!1sen!2snl!4v1523830882066"
           address={
-            ['4th and Colorado', 'Palo Alto, CA'] // TODO: update src
+            ['Downtown Palo Alto'] // TODO: update src
           }
           impacts={[['Number of units', '69'], ['Occupancy', '106']]}
         />
@@ -274,7 +274,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               complexity there's always more to learn.
             </p>,
           ]}
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.1722373935318!2d-118.49340641711257!3d34.01378959309922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4d2297fd73f%3A0xc3a966dc543f315c!2s4th+St+%26+Colorado+Ave%2C+Santa+Monica%2C+CA+90401%2C+USA!5e0!3m2!1sen!2snl!4v1523830606354"
           address={
             ['Downtown Santa Monica'] // TODO: update src
           }
@@ -312,10 +312,8 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               </a>.{' '}
             </p>,
           ]}
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
-          address={
-            ['Diamond and Mission', 'South Pasadena'] // TODO: update src
-          }
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.5818568385357!2d-118.15809709572208!3d34.11575252655809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c489826955cf%3A0xa56990f4bb1c5300!2sDiamond+Ave+%26+Mission+St%2C+South+Pasadena%2C+CA+91030%2C+USA!5e0!3m2!1sen!2snl!4v1523830433371"
+          address={['Diamond and Mission', 'South Pasadena']}
           impacts={[['Number of units', '46-52'], ['Occupancy', '65-84']]}
         />
         <br />
