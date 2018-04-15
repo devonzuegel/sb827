@@ -217,7 +217,59 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           before={Render03Before_FullSize}
           after={Render03After_FullSize}
           emphasis="Where can I learn more about SB 827?"
-          description={['TODO']}
+          description={[
+            <ul>
+              <li>
+                <a href="https://transitrichhousing.org/">
+                  Visualize Transit-Rich Housing: What would SB 827 really look like?
+                </a>{' '}
+                is the most thorough, accessible, and even-handed analysis of the
+                issue I've found. The best part is its awesome map showing how and
+                where the bill would effect zoning throughout the state. Sasha (the
+                author of the project) also did a great job explaining some of the
+                technical weaknesses of the law.
+              </li>
+              <li>
+                The <i>New York Times</i> published a good piece titled{' '}
+                <a href="https://www.nytimes.com/2018/03/16/business/energy-environment/climate-density.html">
+                  A Bold, Divisive Plan to Wean Californians From Cars
+                </a>{' '}
+                about the environmental impacts of California land use and how SB 827
+                would reduce energy dependence.
+              </li>
+              <li>
+                For a depressing view of the impact of the housing shortage on
+                commutes:{' '}
+                <a href="https://www.nytimes.com/2017/08/17/business/economy/san-francisco-commute.html">
+                  A 2:15 Alarm, 2 Trains and a Bus Get Her to Work by 7 A.M.
+                </a>
+              </li>
+              <li>
+                Senator Scott Weiner answered common questions and concerns regarding
+                the bill in a post{' '}
+                <a href="https://extranewsfeed.com/my-transit-density-bill-sb-827-answering-common-questions-and-debunking-misinformation-226eaa7e1653">
+                  here
+                </a>.
+              </li>
+              <li>
+                Not everyone supports SB 827. Here is a Change.org petition begun by
+                some critics of the bill, which includes a good overview of the case
+                against SB 827:{' '}
+                <a href="https://www.change.org/p/california-state-legislature-no-to-sb-827-sb-828-stop-top-down-planning-unsustainable-high-density-housing-growth">
+                  NO to SB 827 &amp; SB 828! Stop Top-Down Planning &amp;
+                  Unsustainable High-Density Housing Growth!
+                </a>{' '}
+                As I've mentioned, I'm sympathetic to some of concerns but disagree
+                with the conclusions.
+              </li>
+            </ul>,
+            <p>
+              If you have any questions, disagreements, or additions, please email me
+              at <a href="mailto:devonzuegel@gmail.com">devonzuegel@gmail.com</a>! I
+              (obviously) love discussing this stuff, and with an issue of this
+              complexity there's always more to learn.
+            </p>,
+          ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
           address={
             ['Downtown Santa Monica'] // TODO: update src
