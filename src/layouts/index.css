@@ -98,7 +98,7 @@ hr:before {
   content: '~';
   display: inline-block;
   margin: auto;
-  color: #bbb;
+  color: #999;
   position: relative;
   font-style: italic;
   font-size: 24px;
