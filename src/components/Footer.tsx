@@ -10,13 +10,12 @@ export const ThankYou = () => (
       link="twitter.com/devonzuegel"
     />
     <span className="separator">•</span>
-    <Credit
-      phrase="Consultation by"
+    Renderings by{' '}
+    <ExternalLink
       children="Flora Bao"
       link="www.aiasf.org/members/?id=39131857"
-    />
-    <span className="separator">•</span>
-    <Credit phrase="Renderings by" children="UVIZ" link="www.uvizstudio.com" />
+    />{' '}
+    &amp; <ExternalLink children="UVIZ" link="www.uvizstudio.com" />
     <span className="separator">•</span>
     Thanks to <ExternalLink
       children="Nat Friedman"

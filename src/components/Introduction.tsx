@@ -48,7 +48,7 @@ export const Introduction = () => (
       We're <i>lucky</i> that people want to move here. California's economy is
       booming, and some of the most beautiful places in the county are right in our
       backyard. Newcomers want to participate in the opportunities available in our
-      state, but a shortage of places to live make it hard for them to make those
+      state, but a shortage of places to live makes it hard for them to make those
       contributions.
     </p>
     <p>
