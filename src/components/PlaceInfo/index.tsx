@@ -18,15 +18,9 @@ const Map = (props: {src: string}) => (
   <iframe className="place-info--map" src={props.src} allowFullScreen />
 )
 
-const Address = (props: {address: string[]}) => (
-  <div className="address">
-    {props.address.map((line, i) => <div key={i}>{line}</div>)}
-  </div>
-)
-
 const Downloads = (props: {before: string; after: string}) => (
   <div className="place-info--downloads">
-    <span className="place-info--label">Downloads:</span>
+    <b>Downloads:</b>
     <a href={props.before} download>
       before
     </a>
@@ -53,15 +47,8 @@ export const PlaceInfo = (props: IProps) => (
   <div className="place-info">
     <div className="place-info--left">
       <Map {...props} />
-      <div className="place-info--details">
-        <div className="details--left">
-          <Address {...props} />
-          <Downloads {...props} />
-        </div>
-        <div className="details--right">
-          <Impact {...props} />
-        </div>
-      </div>
+      <Impact {...props} />
+      <Downloads {...props} />
     </div>
     <div className="place-info--description">
       <h2>{props.emphasis}</h2>

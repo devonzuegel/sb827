@@ -12,20 +12,7 @@
   z-index: 4;
 }
 
-.place-info--details {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: row;
-}
-
-.place-info--downloads {
-  margin-top: 1.25em;
-}
-
-.place-info--downloads * {
-  color: #999;
+.place-info--left * {
   margin-right: 0.6em;
 }
 
