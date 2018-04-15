@@ -119,7 +119,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               people who are excluded at only a slight short-term advantage to the
               people who are already here.
             </p>,
-            `Californians pride themselves on welcoming outsiders, but this is a hollow ideal if we don't create a place for them to live. SB 827 would alleviate this artificial restriction, and its emphasis on transit hubs would minimize any additional strain on our infrastructure.  It would allow more people to participate in and contribute to California's thriving economy, which would ultimately benefit everyone.`,
+            `Californians pride themselves on welcoming newcomers, but this is a hollow ideal if we don't create places for them to live. SB 827 would alleviate this artificial restriction, and its focus around transit would minimize any additional strain on our infrastructure.  It would allow more people to contribute to California's thriving economy, which is good for everyone.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d391.7260048928203!2d-122.6330726!3d38.2375615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085b6aa0d6a5c49%3A0x4477696a140294f4!2s310+Wilson+St%2C+Petaluma%2C+CA+94952!5e0!3m2!1sen!2sus!4v1522212099560"
           address={['310 Wilson St', 'Petaluma, CA 94952']}
@@ -131,7 +131,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           after={Render05After_FullSize}
           emphasis="SB 827 means that we can reduce our carbon footprint"
           description={[
-            `To achieve California's environmental goals, it is key that we revisit local zoning laws. These restrictions mandate low-density housing around transit, which limits the number of people who can use it, induces sprawl, and pushes people to drive more.`,
+            `To achieve California's environmental goals, we need to revisit local zoning laws. These restrictions mandate low-density housing around transit, which limits the number of people who can use it, induces sprawl, and pushes people to drive more.`,
             <p>
               If people can live near transit, they'll be able drive less. This is a
               big deal—40 percent of California's carbon emissions are from
@@ -164,8 +164,8 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           emphasis="SB 827 means we can make full use of our infrastructure investments"
           description={[
             `We make massive investments in California's transit infrastructure, but they go underutilized. The core of the problem is that local zoning rules restrict the number of people this infrastructure can serve.`,
-            `When a neighborhood reaps the benefits of regional and statewide projects, their development plans should reflect the resources that the broader community has funneled their way. I sympathize with the desire for local control, but it's not fair or efficient for a place to reap the benefits of investment by the broader California community if they don't respond in kind by welcoming neighbors that infrastructure was intended to serve. It just doesn't make sense to spend millions of dollars on a new transit hub surrounded by low-density sprawl.`,
-            `SB 827 would go far to righting this imbalance. The bill would cut some of the red tape around building around transit, enabling us to make the most of our transit investments.`,
+            `When a neighborhood reaps the benefits of regional and statewide projects, their development plans should reflect the resources that the broader community has funneled their way. I sympathize with the desire for local control, but it's unfair and inefficient for a place to reap the benefits of investment by the broader California community if they don't respond in kind by welcoming neighbors that infrastructure was intended to serve. It just doesn't make sense to spend millions of dollars on a new transit hub surrounded by low-density sprawl.`,
+            `SB 827 would go far in righting this imbalance. The bill would cut some of the red tape around building around transit, enabling us to make the most of our transit investments.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4015937269373!2d-122.28537068400891!3d37.874289979741434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857ebe90b946ef%3A0xfee56f2e56062794!2sNorth+Berkeley+BART+Station!5e0!3m2!1sen!2sus!4v1523441743704"
           address={
@@ -198,11 +198,11 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               than New York City. A big part of what people love about the city is
               just how accessible everything is, which is only possible when there's
               a critical mass of people to support an abundance of shops, cafes, and
-              transit. They manage to do this even while working with a 6 story limit
-              throughout most of the city! Paris simultaneously supports a dense
-              population and is one of the most livable cities in the world. We can
-              do that in California, too, without sacrficing what we love about our
-              communities.
+              transit. They manage to do this even while working with an 8 story
+              limit throughout most of the city! Paris simultaneously supports a
+              dense population and is one of the most livable cities in the world. We
+              can do that in California, too, without sacrficing what we love about
+              our communities.
             </p>,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
@@ -218,6 +218,10 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           after={Render03After_FullSize}
           emphasis="Where can I learn more about SB 827?"
           description={[
+            <p>
+              Here are a few pointers to get started learning more about California
+              land use and how SB 827 would impact the state:
+            </p>,
             <ul>
               <li>
                 <a href="https://transitrichhousing.org/">
