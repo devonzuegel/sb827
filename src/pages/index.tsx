@@ -286,7 +286,32 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           before={Render04Before_FullSize}
           after={Render04After_FullSize}
           emphasis="Where do we go from here?"
-          description={[`We're at an exciting inflection point—`]}
+          description={[
+            <p>
+              We're at an exciting inflection point. A pro-housing coalition has been
+              building steam, and the movement includes grassroots groups, Governor
+              Jerry Brown, legislators across the state, businesses of all sizes from
+              every industry, and more. Legislation of this ambition would have been
+              unthinkable just a few years ago, but now it's just a matter of time.
+            </p>,
+            <p>
+              If you'd like to get involved, the nonprofit{' '}
+              <a href="https://cayimby.org/take-action/find-local-yimbys/">
+                California YIMBY
+              </a>{' '}
+              has good resources and my inbox is{' '}
+              <a href="https://devonzuegel.com/page/contact">always open</a>.
+            </p>,
+            <p>
+              Finally, if you'd like to make any changes to this site, feel free to
+              <a href="https://github.com/devonzuegel/sb827">
+                open a pull request
+              </a>{' '}
+              or let me know <a href="https://twitter.com/devonzuegel">on Twitter</a>/<a href="mailto:devonzuegel@gmail.com">
+                via email
+              </a>.{' '}
+            </p>,
+          ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
           address={
             ['Diamond and Mission', 'South Pasadena'] // TODO: update src
