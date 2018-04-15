@@ -80,7 +80,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
             `SB 827 would do away with a lot of these arbitrary regulations that restrict where people can live. It would allow supply to begin to respond to demand, bringing us an important step closer to reining in the absurd cost of living in California.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d840.1963474816608!2d-117.084435970752!3d32.61190229881392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94dd41d76dcf9%3A0xf2c2045a19309578!2s1041+Jefferson+Ave%2C+Chula+Vista%2C+CA+91911!5e0!3m2!1sen!2sus!4v1522210849364"
-          address={['1039 Jefferson Ave', 'Chula Vista, CA 91911']}
+          address={['1041 Jefferson Ave', 'Chula Vista, CA 91911']}
           impacts={[['Number of units', '51'], ['Occupancy', '102-126']]}
         />
         }
@@ -90,8 +90,13 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           after={Render06After_FullSize}
           emphasis="SB 827 means that parents can spend time with their kids rather than commuting in their cars"
           description={[
-            'TODO',
-            `"We have a severe housing shortage and part of the problem is that core areas with transit access don't allow much housing," said Senator Scott Wiener, who proposed the bill. "That creates sprawl, huge commutes, and it's not sustainable."`,
+            <p>
+              Housing prices in cities have risen faster than wages, pushing people ever further from their jobs. The result is tedious commutes, <a href="https://www.sfgate.com/bayarea/article/These-have-been-judged-the-Bay-Area-s-10-worst-12207607.php">traffic congestion</a>, and lost productivity. About <a href="https://www.nytimes.com/2018/03/16/business/energy-environment/climate-density.html">1 in 20</a> Bay Area commuters spends more than 90 minutes traveling to work, and that number is rising. That time would be better spent doing literally anything else, but we've given these workers little choice. Workers are forced to make a tradeoff—spend all of their time commuting, or spend all of their savings on housing close to work. Many people are deciding to opt out all together, moving out to settle down in more affordable regions.
+            </p>,
+            <p>
+              This is not the natural ebb and flow of supply and demand. We have imposed an artificial shortage on housing similar to <a href="https://courses.lumenlearning.com/boundless-economics/chapter/impacts-of-monopoly-on-efficiency/">monopoly pricing</a> that results in deadweight loss. Current rules allow people who already have access to all California has to offer to exclude others from those same opportunities. This massively disadvantages the large number of people who are excluded at only a slight short-term advantage to the people who are already here.
+            </p>,
+              `Californians pride themselves on welcoming outsiders, but this is a hollow ideal if we don't create a place for them to live. SB 827 would alleviate this artificial restriction, and its emphasis on transit hubs would minimize any additional strain on our infrastructure.  It would allow more people to participate in and contribute to California's thriving economy, which would ultimately benefit everyone.`,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d391.7260048928203!2d-122.6330726!3d38.2375615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085b6aa0d6a5c49%3A0x4477696a140294f4!2s310+Wilson+St%2C+Petaluma%2C+CA+94952!5e0!3m2!1sen!2sus!4v1522212099560"
           address={['310 Wilson St', 'Petaluma, CA 94952']}
@@ -102,7 +107,17 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           before={Render05Before_FullSize}
           after={Render05After_FullSize}
           emphasis="SB 827 means that we can reduce our carbon footprint"
-          description={['TODO']}
+          description={[
+            `To achieve California's environmental goals, it is key that we revisit local zoning laws. These restrictions mandate low-density housing around transit, which limits the number of people who can use it, induces sprawl, and pushes people to drive more.`,
+            <p>
+              Forty percent of California's carbon emissions are from transportation.
+              If more people can live near transit, they'll be able drive less and
+              make a big dent in reducing this number. "It'll give us a much better
+              chance of meeting our climate goals," <a href="https://www.curbed.com/2018/1/24/16928438/sb827-california-housing-crisis-senator-scott-wiener" >said</a> Senator Scott Weiner, who
+              proposed the bill. "We'll never meet them with our current land-use
+              patterns."
+            </p>,
+          ]}
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
           address={['1030 Garland Ave', 'San Jose, CA']}
           impacts={[['Number of units', '17'], ['Occupancy', '18-24']]}
@@ -118,9 +133,9 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
             `When a neighborhood reaps the benefits of regional and statewide projects, their development plans should reflect the resources that the broader community has funneled their way. I sympathize with the desire for local control, but it's not fair or efficient for a place to reap the benefits of investment by the broader California community if they don't respond in kind by welcoming neighbors that infrastructure was intended to serve. It just doesn't make sense to spend millions of dollars on a new transit hub surrounded by low-density sprawl.`,
             `SB 827 would go far to righting this imbalance. The bill would cut some of the red tape around building around transit, enabling us to make the most of our transit investments.`,
           ]}
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.1359663801818!2d-121.9107603!3d37.329631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb5cf5d99191%3A0x989323c608a07f0c!2s1030+Garland+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1522212783283"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4015937269373!2d-122.28537068400891!3d37.874289979741434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857ebe90b946ef%3A0xfee56f2e56062794!2sNorth+Berkeley+BART+Station!5e0!3m2!1sen!2sus!4v1523441743704"
           address={
-            ['North Berkeley BART Station', 'Berkeley, CA'] // TODO: update src
+            ['North Berkeley BART Station', 'Berkeley, CA 94702'] // TODO: update src
           }
           impacts={[]}
         />
