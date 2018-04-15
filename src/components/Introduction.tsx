@@ -76,11 +76,15 @@ export const Introduction = () => (
       </li>
     </ul>
     <p>
-      I've seen countless scary-sounding headlines like "<ExternalLink link="padailypost.com/2018/02/18/housing-bill-result-85-foot-tall-buildings-el-camino">
+      I've seen countless scary-sounding headlines like "
+      <a
+        target="_blank"
+        rel="nofollow"
+        href="http://padailypost.com/2018/02/18/housing-bill-result-85-foot-tall-buildings-el-camino"
+      >
         Housing bill could result in 85-foot tall buildings on El Camino
-      </ExternalLink>". I totally understand where these fears come from—I grew up
-      around there, and it's frightening to think about how the places I love might
-      change.
+      </a>". I totally understand where these fears come from—I grew up around there,
+      and it's frightening to think about how the places I love might change.
     </p>
     <p>
       However, when I dug into the numbers, not only were my fears alleviated but I

@@ -88,7 +88,7 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
         <PlaceInfo
           before={Render06Before_FullSize}
           after={Render06After_FullSize}
-          emphasis="SB 827 means that parents can spend time with their kids rather than commuting in their cars"
+          emphasis="SB 827 means that parents can spend more time with their kids rather than commuting in their cars"
           description={[
             <p>
               Housing prices in cities have risen faster than wages, pushing people
@@ -103,9 +103,10 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               that number is rising. That time would be better spent doing literally
               anything else, but we've given these workers little choice. Workers are
               forced to make a tradeoff—spend all of their time commuting, or spend
-              all of their savings on housing close to work. Many people are deciding
-              to opt out all together, moving out to settle down in more affordable
-              regions.
+              all of their savings on housing close to work. Many people are{' '}
+              <a href="http://www.sacbee.com/news/state/california/article136478098.html">
+                opting out all together
+              </a>, moving out to settle down in more affordable regions.
             </p>,
             <p>
               This is not the natural ebb and flow of supply and demand. We have
