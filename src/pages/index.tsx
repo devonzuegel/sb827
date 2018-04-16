@@ -279,6 +279,14 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               (obviously) love discussing this stuff, and with an issue of this
               complexity there's always more to learn.
             </p>,
+            <p>
+              Also please note that{' '}
+              <a href="https://medium.com/@Scott_Wiener/sb-827-amendments-affordability-transit-lines-height-ellis-act-protections-more-fae09ee3f897">
+                amendments to the bill
+              </a>{' '}
+              were made in early April that make some of the specific details in the
+              renders incorrect.
+            </p>,
           ]}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.1722373935318!2d-118.49340641711257!3d34.01378959309922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4d2297fd73f%3A0xc3a966dc543f315c!2s4th+St+%26+Colorado+Ave%2C+Santa+Monica%2C+CA+90401%2C+USA!5e0!3m2!1sen!2snl!4v1523830606354"
           address={['Downtown Santa Monica']}
@@ -307,10 +315,8 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
               <a href="https://devonzuegel.com/page/contact">always open</a>.
             </p>,
             <p>
-              Finally, if you'd like to make any changes to this site, feel free to
-              <a href="https://github.com/devonzuegel/sb827">
-                open a pull request
-              </a>{' '}
+              Finally, if you'd like to make any changes to this site, feel free to{' '}
+              <a href="https://github.com/devonzuegel/sb827">open a pull request</a>{' '}
               or let me know <a href="https://twitter.com/devonzuegel">on Twitter</a>/<a href="mailto:devonzuegel@gmail.com">
                 via email
               </a>.{' '}
@@ -323,7 +329,6 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
         <br />
         <br />
         <br />
-        {/* <AboutProject /> */}
         <ThankYou />
       </div>
     )
