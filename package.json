@@ -11,18 +11,20 @@
     "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^1.0.29",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typescript": "^1.4.10",
     "react-helmet": "^5.2.0"
   },
-  "keywords": ["gatsby, typescript"],
+  "keywords": [
+    "gatsby, typescript"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format":
-      "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\""
+    "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\""
   },
   "devDependencies": {
     "prettier": "^1.8.2"
