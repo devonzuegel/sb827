@@ -222,6 +222,11 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
             </p>,
             <ul>
               <li>
+                To see how the bill affects your district, you can go to:{' '}
+                <a href="https://sb827.info/">sb827.info</a> for detailed map and
+                fact sheet.
+              </li>
+              <li>
                 <a href="https://transitrichhousing.org/">
                   Visualize Transit-Rich Housing: What would SB 827 really look like?
                 </a>{' '}
