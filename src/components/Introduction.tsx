@@ -4,12 +4,7 @@ import {ExternalLink} from '../components/Links'
 
 export const Introduction = () => (
   <div className="two-columns">
-    <p>
-      California is in a housing crisis. For a sense of its scale:
-      {/* California's economy is booming, and it is one of the most beautiful parts of
-      the country. A lot of people want to participate in opportunities here but
-      can't because of a shortage of places to live. For a sense of its scale: */}
-    </p>
+    <p>California is in a housing crisis. For a sense of its scale:</p>
     <ul>
       <li>
         In 2017, California added roughly{' '}
@@ -36,7 +31,7 @@ export const Introduction = () => (
       state legislature that could make a dent: Senate Bill 827 (<ExternalLink link="leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB827">
         SB 827
       </ExternalLink>). The bill would change zoning around transit to allow for
-      mid-rise housing
+      mid-rise housing.
     </p>
     <p>
       I've seen countless scary-sounding headlines like "
