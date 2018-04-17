@@ -84,7 +84,6 @@ export default class extends React.Component<IndexPageProps, {after: number}> {
           address={['1041 Jefferson Ave', 'Chula Vista, CA 91911']}
           impacts={[['Number of units', '51'], ['Occupancy', '102-126']]}
         />
-        }
         <BeforeAndAfter before={Render06Before} after={Render06After} percent={65} />
         <PlaceInfo
           before={Render06Before_FullSize}
