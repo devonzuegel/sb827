@@ -113,22 +113,38 @@ input[type='range']::-moz-range-thumb {
   border: none;
 }
 
-/* Smaller screen */
+/* Smaller screen
+
+   The plan: we've got to make this slider thumb have a touch-friendly hit size
+   (canonically 44px according to Apple's Human Interface Guidelines). But we
+   don't want the slider thumb to *look* 44px wide: we want it to look just 12px
+   wide. We'll accomplish that through two tricks:
+   1. Making the slider thumb 44px wide and using a gradient to give it a
+      background for the middle 12px.
+   2. "Outset" the entire slider by 16px (i.e. (44-12) / 2) off both edges of
+      the screen so that the visible part of the slider "stops" at the right
+      place. */
 @media (max-width: 900px) {
   input[type='range'] {
     height: 80vw;
     top: -70vw;
+    width: calc(100vw + 32px);
+    margin-left: -16px;
   }
   input[type='range']::-moz-range-track {
     height: 80vw;
     top: -70vw;
+    width: calc(100vw + 32px);
+    margin-left: -16px;
   }
   input[type='range']::-webkit-slider-thumb {
     height: 80vw;
-    width: 12px;
+    width: 44px;
+    background: linear-gradient(to right, transparent, transparent 36%, rgba(255, 255, 255, 0.7) 36%, rgba(255, 255, 255, 0.7) 64%, transparent 64%, transparent);
   }
   input[type='range']::-moz-range-thumb {
     height: 80vw;
-    width: 12px;
+    width: 44px;
+    background: linear-gradient(to right, transparent, transparent 36%, rgba(255, 255, 255, 0.7) 36%, rgba(255, 255, 255, 0.7) 64%, transparent 64%, transparent);
   }
 }
