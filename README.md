@@ -8,7 +8,7 @@ To develop locally with live reload:
 yarn develop
 ```
 
-## Deployings
+## Deployment
 
 The site is deployed at http://sb827.netlify.com.
 
